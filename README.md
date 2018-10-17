@@ -43,6 +43,7 @@ A more involved example comparing word embeddings:
   glove_wiki_50_vectors = np.vstack([glove_wiki_50.get_vector(word) for word in shared_vocab])
   glove_twitter_50_vectors = np.vstack([glove_twitter_50.get_vector(word) for word in shared_vocab])
 
+  # Run the comparison
   comparator = NeighborsComparison()
   print("The neighbors similarity between glove-wiki-gigaword-50 and glove-twitter-50 is {}".format(
     comparator.run_comparison(glove_wiki_50_vectors, glove_twitter_50_vectors)["similarity"]))
