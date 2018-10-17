@@ -1,0 +1,11 @@
+numpy
+pandas
+tensorflow
+gensim
+keras
+annoy
+mock
+scipy
+tqdm
+scikit-learn
+pytest
