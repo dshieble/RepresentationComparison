@@ -8,6 +8,12 @@
 * Canonical Correlation: Treat embedding components as observations of random variables and compute the canonical correlations between model A and model B. 
 * Unit Match: Form a unit-to-unit matching between model A's embedding components and model B's embedding components and measure the correlations of the matched units.
 
+You can install repcomp from pip 
+
+```
+pip install repcomp
+```
+
 A simple example comparing random embeddings:
 
 ```python
