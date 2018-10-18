@@ -1,7 +1,7 @@
 import unittest
 import numpy as np
 
-from embeddingcomp.comparison import NeighborsComparison, UnitMatchComparison, CCAComparison
+from repcomp.comparison import NeighborsComparison, UnitMatchComparison, CCAComparison
 
 
 class TestComparison(unittest.TestCase):

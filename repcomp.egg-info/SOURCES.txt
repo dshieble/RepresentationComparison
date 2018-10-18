@@ -1,4 +1,5 @@
 README.md
+setup.py
 repcomp/__init__.py
 repcomp/comparison.py
 repcomp/embedding_source.py

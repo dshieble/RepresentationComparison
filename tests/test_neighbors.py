@@ -1,7 +1,7 @@
 import unittest
 import numpy as np
 
-from embeddingcomp.neighbors import get_neighbors_table, jaccard
+from repcomp.neighbors import get_neighbors_table, jaccard
 
 
 class TestNeighbors(unittest.TestCase):
