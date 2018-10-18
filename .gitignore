@@ -1,4 +1,5 @@
-*pychache*
-*.pyc
-dist/*
-*.egg-info/*
+/__pycache__/
+.pyc
+dist
+repcomp.egg-info
+/.ipynb_checkpoints/
