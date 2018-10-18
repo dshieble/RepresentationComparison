@@ -7,7 +7,7 @@ from scipy.sparse.linalg import svds
 from scipy.sparse import coo_matrix
 from sklearn.preprocessing import LabelEncoder
 
-from embeddingcomp.comparison import CCAComparison, NeighborsComparison, UnitMatchComparison
+from repcomp.comparison import CCAComparison, NeighborsComparison, UnitMatchComparison
 from wals import train_model_on_sparse_matrix
 
 
